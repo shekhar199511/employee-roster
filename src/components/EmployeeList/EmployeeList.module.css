@@ -1,0 +1,23 @@
+.EmployeeList{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.EmployeeDetails{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.EmployeeHeader{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+

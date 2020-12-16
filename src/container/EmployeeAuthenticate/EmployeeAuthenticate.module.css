@@ -1,0 +1,63 @@
+.InputContainer{
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label{
+    font-weight: inherit;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.InputElement{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.InputElement:focus{
+    outline: none;
+    background-color: #ccc;
+}
+
+.FormContainer{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 2px 2px grey;
+    padding: 20px;
+
+
+    display: block;
+    width: 65%;
+	height: 50%;
+	
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+
+.LoginButton{
+    outline: none;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.ErrorMsg{
+    color: red;
+}
+
